@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://127.0.0.1:5500/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Мой первый сайт</title>
+    <link rel="stylesheet" href="./Мой первый сайт_files/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container container_header">
+    <img src="./Мой первый сайт_files/Логотип(header__logo).png" alt="" class="header__img">
+    <nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item">Главная</li>
+        <li class="nav__item">О персонаже</li>
+        <li class="nav__item">скриншоты</li>
+        <li class="nav__item">отзывы</li>
+
+    </ul>
+</nav>
+</div>
+</header>
+
+<main class="main">
+
+<section class="hero-block">
+<div class="container container_hero-block">
+    <img src="./Мой первый сайт_files/hero-block__img.png" alt="" class="hero-block_img">
+    <div class="hero-block_content">
+        <h2 class="hero-block__title">
+        
+        Монарх
+    </h2>
+    <a href="https://www.ea.com/ru-ru/games/titanfall/titanfall-2/titans/monarch" class="hero-block_link">читать о монархе</a>
+
+
+
+
+ </div>
+</div>
+</section>
+
+<section class="about">
+    <div class="container container_about">
+<h2 class="about_title">об титане:</h2>
+<div class="about__content">
+    <p class="about__text"> Монарх — титан среднего класса. Вооружен 40-зарядной автоматической пушкой XO-16. Специализация — постоянное выживание на поле боя и стратегическая поддержка. Режим защиты — лазер, способный отбирать энергию врагов и создавать щит.
+    </p>
+    <img src="./Мой первый сайт_files/about__img.png" class="about__img">
+</div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+<footer class="footer">
+<div class="container container_footer">
+<div class="footer__content">
+    <h2 class="footer__title">Монарх</h2>
+    <p class="footer__text">© 2023. Все права защищены.</p>
+</div>
+
+<ul class="footer__list">
+<li class="footer__item">
+<a href="http://127.0.0.1:5500/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/index.html#" class="footer__link">
+<img src="./Мой первый сайт_files/icon_tg.svg" alt="" class="footer__img"></a>
+</li>
+<li class="footer__item">
+    <a href="http://127.0.0.1:5500/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/index.html#" class="footer__link">
+    <img src="./Мой первый сайт_files/↳ Icon Color.png" alt="" class="footer__img"></a>
+    </li>
+    
+</ul>
+
+</div>
+
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+</body></html>

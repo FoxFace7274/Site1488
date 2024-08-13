@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background: rgb(101, 11, 11);
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+}
+
+
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav__item {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.nav__item {
+color: aqua;
+font-family: inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+margin-right: 30px;
+}
+
+.nav__item:hover{
+    color: rgb(228, 228, 228);
+}
+
+.hero-block {
+    background: rgb(50, 53, 140);
+}
+
+
+.container_hero-block {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60px;
+}
+
+
+.hero-block__content {
+    max-width: 415px;
+    
+} 
+
+
+.hero-block__title {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 40px;
+}
+
+
+.hero-block_link {
+    border-radius: 6px;
+    background: rgb(101, 11, 11);
+    padding: 15px 48px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.about{
+    background: rgb(101, 11, 11);
+}
+
+
+.container_about {
+    padding: 32px 53px;
+}
+
+.about_title {
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: center;
+   margin-bottom: 60px;
+}
+.about__text {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+}
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about__text {
+    max-width: 503px;
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+}
+.footer {
+    background: rgb(50, 53, 140);
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 55px;
+}
+
+
+.footer__title {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom:15px;
+}
+
+
+.footer__text {
+    color: rgb(228, 228, 228);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.footer__list {
+    display: flex;
+    list-style:none
+}
+
+.footer__item {
+    margin-right:25px;
+}
+
